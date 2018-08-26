@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/styles_textView"
+        android:id="@+id/styles_textView_1"
         style="@style/style_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,10 +29,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/styles_textView" />
+        app:layout_constraintTop_toBottomOf="@+id/styles_textView_1" />
 
     <Button
-        android:id="@+id/styles_button"
+        android:id="@+id/styles_button_1"
         style="@style/style_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/styles_textView_2" />
 
     <Button
-        android:id="@+id/styles_button2"
+        android:id="@+id/styles_button_2"
         style="@style/style_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,6 +51,6 @@
         android:text="Button 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/styles_button" />
+        app:layout_constraintTop_toBottomOf="@+id/styles_button_1" />
 
 </android.support.constraint.ConstraintLayout>
